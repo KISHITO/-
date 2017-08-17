@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E74602411F460E1000A1D183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74602401F460E1000A1D183 /* AppDelegate.swift */; };
+		E74602431F460E1000A1D183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74602421F460E1000A1D183 /* ViewController.swift */; };
+		E74602461F460E1000A1D183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74602441F460E1000A1D183 /* Main.storyboard */; };
+		E74602481F460E1000A1D183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74602471F460E1000A1D183 /* Assets.xcassets */; };
+		E746024B1F460E1000A1D183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74602491F460E1000A1D183 /* LaunchScreen.storyboard */; };
+		E74602561F460E1000A1D183 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74602551F460E1000A1D183 /* ____Tests.swift */; };
+		E74602611F460E1000A1D183 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74602601F460E1000A1D183 /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74602521F460E1000A1D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74602351F460E0F00A1D183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E746023C1F460E0F00A1D183;
+			remoteInfo = "予防接種";
+		};
+		E746025D1F460E1000A1D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74602351F460E0F00A1D183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E746023C1F460E0F00A1D183;
+			remoteInfo = "予防接種";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E746023D1F460E1000A1D183 /* 予防接種.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "予防接種.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74602401F460E1000A1D183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E74602421F460E1000A1D183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E74602451F460E1000A1D183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E74602471F460E1000A1D183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E746024A1F460E1000A1D183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E746024C1F460E1000A1D183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74602511F460E1000A1D183 /* 予防接種Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "予防接種Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74602551F460E1000A1D183 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		E74602571F460E1000A1D183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E746025C1F460E1000A1D183 /* 予防接種UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "予防接種UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74602601F460E1000A1D183 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		E74602621F460E1000A1D183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E746023A1F460E0F00A1D183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E746024E1F460E1000A1D183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74602591F460E1000A1D183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E74602341F460E0F00A1D183 = {
+			isa = PBXGroup;
+			children = (
+				E746023F1F460E1000A1D183 /* 予防接種 */,
+				E74602541F460E1000A1D183 /* 予防接種Tests */,
+				E746025F1F460E1000A1D183 /* 予防接種UITests */,
+				E746023E1F460E1000A1D183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E746023E1F460E1000A1D183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E746023D1F460E1000A1D183 /* 予防接種.app */,
+				E74602511F460E1000A1D183 /* 予防接種Tests.xctest */,
+				E746025C1F460E1000A1D183 /* 予防接種UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E746023F1F460E1000A1D183 /* 予防接種 */ = {
+			isa = PBXGroup;
+			children = (
+				E74602401F460E1000A1D183 /* AppDelegate.swift */,
+				E74602421F460E1000A1D183 /* ViewController.swift */,
+				E74602441F460E1000A1D183 /* Main.storyboard */,
+				E74602471F460E1000A1D183 /* Assets.xcassets */,
+				E74602491F460E1000A1D183 /* LaunchScreen.storyboard */,
+				E746024C1F460E1000A1D183 /* Info.plist */,
+			);
+			path = "予防接種";
+			sourceTree = "<group>";
+		};
+		E74602541F460E1000A1D183 /* 予防接種Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E74602551F460E1000A1D183 /* ____Tests.swift */,
+				E74602571F460E1000A1D183 /* Info.plist */,
+			);
+			path = "予防接種Tests";
+			sourceTree = "<group>";
+		};
+		E746025F1F460E1000A1D183 /* 予防接種UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74602601F460E1000A1D183 /* ____UITests.swift */,
+				E74602621F460E1000A1D183 /* Info.plist */,
+			);
+			path = "予防接種UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E746023C1F460E0F00A1D183 /* 予防接種 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74602651F460E1000A1D183 /* Build configuration list for PBXNativeTarget "予防接種" */;
+			buildPhases = (
+				E74602391F460E0F00A1D183 /* Sources */,
+				E746023A1F460E0F00A1D183 /* Frameworks */,
+				E746023B1F460E0F00A1D183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "予防接種";
+			productName = "予防接種";
+			productReference = E746023D1F460E1000A1D183 /* 予防接種.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74602501F460E1000A1D183 /* 予防接種Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74602681F460E1000A1D183 /* Build configuration list for PBXNativeTarget "予防接種Tests" */;
+			buildPhases = (
+				E746024D1F460E1000A1D183 /* Sources */,
+				E746024E1F460E1000A1D183 /* Frameworks */,
+				E746024F1F460E1000A1D183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74602531F460E1000A1D183 /* PBXTargetDependency */,
+			);
+			name = "予防接種Tests";
+			productName = "予防接種Tests";
+			productReference = E74602511F460E1000A1D183 /* 予防接種Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E746025B1F460E1000A1D183 /* 予防接種UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E746026B1F460E1000A1D183 /* Build configuration list for PBXNativeTarget "予防接種UITests" */;
+			buildPhases = (
+				E74602581F460E1000A1D183 /* Sources */,
+				E74602591F460E1000A1D183 /* Frameworks */,
+				E746025A1F460E1000A1D183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E746025E1F460E1000A1D183 /* PBXTargetDependency */,
+			);
+			name = "予防接種UITests";
+			productName = "予防接種UITests";
+			productReference = E746025C1F460E1000A1D183 /* 予防接種UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74602351F460E0F00A1D183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "池田俊輝";
+				TargetAttributes = {
+					E746023C1F460E0F00A1D183 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					E74602501F460E1000A1D183 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E746023C1F460E0F00A1D183;
+					};
+					E746025B1F460E1000A1D183 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E746023C1F460E0F00A1D183;
+					};
+				};
+			};
+			buildConfigurationList = E74602381F460E0F00A1D183 /* Build configuration list for PBXProject "予防接種" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74602341F460E0F00A1D183;
+			productRefGroup = E746023E1F460E1000A1D183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E746023C1F460E0F00A1D183 /* 予防接種 */,
+				E74602501F460E1000A1D183 /* 予防接種Tests */,
+				E746025B1F460E1000A1D183 /* 予防接種UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E746023B1F460E0F00A1D183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E746024B1F460E1000A1D183 /* LaunchScreen.storyboard in Resources */,
+				E74602481F460E1000A1D183 /* Assets.xcassets in Resources */,
+				E74602461F460E1000A1D183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E746024F1F460E1000A1D183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E746025A1F460E1000A1D183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74602391F460E0F00A1D183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74602431F460E1000A1D183 /* ViewController.swift in Sources */,
+				E74602411F460E1000A1D183 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E746024D1F460E1000A1D183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74602561F460E1000A1D183 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74602581F460E1000A1D183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74602611F460E1000A1D183 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74602531F460E1000A1D183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E746023C1F460E0F00A1D183 /* 予防接種 */;
+			targetProxy = E74602521F460E1000A1D183 /* PBXContainerItemProxy */;
+		};
+		E746025E1F460E1000A1D183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E746023C1F460E0F00A1D183 /* 予防接種 */;
+			targetProxy = E746025D1F460E1000A1D183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E74602441F460E1000A1D183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74602451F460E1000A1D183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E74602491F460E1000A1D183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E746024A1F460E1000A1D183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E74602631F460E1000A1D183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74602641F460E1000A1D183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74602661F460E1000A1D183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "予防接種/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshiki.Ikeda.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E74602671F460E1000A1D183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "予防接種/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshiki.Ikeda.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E74602691F460E1000A1D183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "予防接種Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshiki.Ikeda.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/予防接種.app/予防接種";
+			};
+			name = Debug;
+		};
+		E746026A1F460E1000A1D183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "予防接種Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshiki.Ikeda.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/予防接種.app/予防接種";
+			};
+			name = Release;
+		};
+		E746026C1F460E1000A1D183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "予防接種UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshiki.Ikeda.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "予防接種";
+			};
+			name = Debug;
+		};
+		E746026D1F460E1000A1D183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "予防接種UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshiki.Ikeda.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "予防接種";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74602381F460E0F00A1D183 /* Build configuration list for PBXProject "予防接種" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74602631F460E1000A1D183 /* Debug */,
+				E74602641F460E1000A1D183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74602651F460E1000A1D183 /* Build configuration list for PBXNativeTarget "予防接種" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74602661F460E1000A1D183 /* Debug */,
+				E74602671F460E1000A1D183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E74602681F460E1000A1D183 /* Build configuration list for PBXNativeTarget "予防接種Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74602691F460E1000A1D183 /* Debug */,
+				E746026A1F460E1000A1D183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E746026B1F460E1000A1D183 /* Build configuration list for PBXNativeTarget "予防接種UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E746026C1F460E1000A1D183 /* Debug */,
+				E746026D1F460E1000A1D183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74602351F460E0F00A1D183 /* Project object */;
+}
