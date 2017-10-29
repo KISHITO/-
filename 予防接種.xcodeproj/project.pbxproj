@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					E746023C1F460E0F00A1D183 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 33V3JTK9P6;
 						ProvisioningStyle = Automatic;
 					};
 					E74602501F460E1000A1D183 = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33V3JTK9P6;
 				INFOPLIST_FILE = "予防接種/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshiki.Ikeda.----";
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33V3JTK9P6;
 				INFOPLIST_FILE = "予防接種/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshiki.Ikeda.----";
